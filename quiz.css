@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    text-align: center;
+    justify-items: center;
+}
+.Quiz-container{
+    width: 600px;
+    height: 350px;
+    margin-top: 10%;
+    margin-left: 35%;
+    box-shadow: 10px 10px 10px 1px black;
+    
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.quiz-heading{
+    margin-top: 20px;
+    padding: 10px 20px;
+    
+    text-align: center;
+}
+.quiz-heading:first-child{
+    margin: 20px 20px;
+   margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    
+
+}
+h1{
+    font-family: fantasy;
+    margin-top: 20px;
+    text-shadow: chartreuse;
+}
+
+button{
+    margin-top: 15px;
+    background-color: steelblue;
+    border: 1ps solid steelblue;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 1.3rem;
+    padding: 20px 30px;
+    font-weight: 500;
+
+}
+
+
+
+ul{
+    list-style: none;
+    
+    
+    
+
+
+}
+.quiz-heading  ul li{
+    padding: 8px;
+}
+.Showscore{
+    display: none;
+}
+#showarea{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    border-radius: 5%;
+}
+.Showscore h3{
+    font-size: 2.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Showscore button{
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 40%;
+
+}
